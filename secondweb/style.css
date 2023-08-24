@@ -1,0 +1,217 @@
+.header
+{
+    background-image: url(/images/banner/banner1.png);
+    background-repeat: no-repeat;
+}
+
+.nav__container{
+    margin-left:700px ;
+}
+.nav__title{
+    padding-top: 200px;
+    color: var(--dark-01, #151414);
+text-align: right;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 230px;
+margin-bottom: -10px;
+}
+.nav__p{
+    color: var(--dark-02, #444343);
+text-align: right;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-right: 230px;
+margin-left:50px ;
+margin-bottom: 35px;
+}
+.nav__button{
+    margin-left: 355px;
+    margin-right:230px;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #F15B22;
+    border:none;
+    padding:21px 25px 20px 26px;
+    margin-bottom: 166px;
+}
+.main__firstpart{
+    display: flex;
+    align-items: center;
+    gap:150px;
+}
+.main__ftitle{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.main__p{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-right: 320px;
+}
+.main__list__item{
+    list-style: none;
+
+}
+.main__list__item li{
+    margin-bottom: 0px;
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.second__title{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .main__second__list{
+        display: flex;
+        gap:50px;
+        padding-left:200px;
+        padding-right:200px;
+
+    }
+    .item__img{
+        margin-left: 57px;
+    }
+    .item__title{
+        text-align: center;
+    }
+    .second__title{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .item__p{
+        text-align: center;
+    }
+
+    /* maing third part */
+    .main__thirdpart{
+        margin: 230px 130px 230px 133px;
+        background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(/images/watch.png) no-repeat;
+        /* background-repeat: no-repeat; */
+    }
+
+.third__title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top:59px;
+    padding-left:64px ;
+}
+
+    .third__button{
+        
+        margin-left: 64px;
+        margin-bottom:59px;
+        padding: 21px 36px 20px 36px;
+        border-radius: 5px;
+        background: #FFF;
+        color: #F15B22;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+    }
+
+
+    /* footer style */
+    .footer__container{
+        display: flex;
+        background-color:#151414;
+        gap:50px;
+       
+        
+    }
+    .footer__first__list{
+        padding: 130px 130px 130px 230px;
+    }
+    .footer__first__title{
+        color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    }
+    .second__p{
+        color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+    .third__p{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .first__p{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .footer__button{
+        color: #F15B22;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border-radius: 8px;
+        background: #FFF;
+        padding: 20px 36px 36px 20px;
+    }
+    .footer__second__list{
+        display: inline-block;
+        padding-top:120px;
+    
+    }
+    footer input{
+        padding: 21px 158px 22px 21px;
+        border-radius: 8px;
+        border: 1px solid #FFF;
+        margin-bottom: 10px;
+        margin-right: 229px;
+        background: var(--dark-01, #151414);
+    }
